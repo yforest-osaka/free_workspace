@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "free-workspace"
+version = "0.1.0"
+description = ""
+authors = ["yforest-osaka <mori.yusei@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+qulacs = "^0.6.10"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
